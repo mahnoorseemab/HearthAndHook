@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-bg: #FDF6F0;
+  --color-card-bg: #FFFCFA;
+
+  /* Text */
+  --color-text: #1A1A1A;
+
+  /* Headings (light to dark) */
+  --color-h3: #D9A5AC;
+  --color-h2: #C97F89;
+  --color-h1: #B8616D;
+
+  /* CTA / Buttons */
+  --color-cta-bg: #8B3A47;
+  --color-cta-text: #FDF6F0;
+
+  /* Fonts */
+  --font-script: "Petit Formal Script", cursive;
+  --font-sharp: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
