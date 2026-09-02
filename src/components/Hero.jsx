@@ -21,7 +21,7 @@ const Hero = () => {
                             Handcrafted knitwear and crochet pieces, made one loop at a time.
                         </p>
 
-                        <div className="flex gap-4 mt-6 pb-12 md:pb-0">
+                        <div className="flex gap-4 mt-9 pb-12 md:pb-0">
                             <button className="font-sharp bg-(--color-cta-bg) text-(--color-card-bg) hover:bg-h3/10 hover:text-(--color-cta-bg) border-2 border-(--color-cta-bg) rounded-full px-6 md:px-8 py-2.5 md:py-3 transition-colors duration-300 active:scale-95 hover:cursor-pointer">
                                 Shop Now
                             </button>

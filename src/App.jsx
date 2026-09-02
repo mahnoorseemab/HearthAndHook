@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import OurStory from "./components/OurStory"
 
 function App() {
 
@@ -8,9 +9,9 @@ function App() {
       <Navbar />
       <div className="pt-[13vh]">
         <Hero />
-        
+        <OurStory />
       </div>
-      </div>
+    </div>
   )
 }
 
