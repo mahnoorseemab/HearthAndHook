@@ -21,3 +21,8 @@
   --font-script: "Petit Formal Script", cursive;
   --font-sharp: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 13vh;
+}

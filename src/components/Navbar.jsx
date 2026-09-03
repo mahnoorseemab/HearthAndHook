@@ -16,11 +16,11 @@ const Navbar = () => {
 
                 {/* Nav links - hidden on mobile */}
                 <div className="hidden md:flex items-center gap-8">
-                    <span className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Home</span>
-                    <span className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Our Story</span>
-                    <span className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Collection</span>
-                    <span className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Testimonials</span>
-                    <span className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Contact</span>
+                    <a href="#home" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Home</a>
+                    <a href="#ourStory" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Our Story</a>
+                    <a href="#Collection" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Collection</a>
+                    <a href="#Testimpnials" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Testimonials</a>
+                    <a href="#Contact" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Contact</a>
                 </div>
 
                 {/* CTA button - hidden on mobile */}
