@@ -7,7 +7,7 @@ const OurStory = () => {
     return (
         <div id="ourStory">
             <div className="px-6 md:px-16 py-16 md:py-24">
-                <p className="font-script text-(--color-cta-bg) tracking-wide text-3xl text-center md:text-left mb-10 ml-20 leading-tight">
+                <p className="font-script text-(--color-cta-bg) tracking-wide text-3xl text-center md:text-left mb-5 md:ml-20 leading-tight">
                     Our Story
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
@@ -24,7 +24,7 @@ const OurStory = () => {
                     {/* Text side */}
                     <div>
                         <h2 className="flex font-script text-3xl md:text-4xl text-(--color-cta-bg) mb-4 gap-4">
-                            <Sparkles className="w-5 h-5 mt-2 text-(--color-cta-bg)"/>
+                            <Sparkles className="w-5 h-5 mt-2 text-(--color-cta-bg)" />
                             Every piece has a story to tell
                         </h2>
                         <p className="font-sharp text-(--color-text) leading-relaxed">

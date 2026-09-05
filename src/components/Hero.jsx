@@ -26,9 +26,9 @@ const Hero = () => {
                             </p>
 
                             <div className="flex gap-4 mt-9 pb-12 md:pb-0">
-                                <button className="font-sharp bg-(--color-cta-bg) text-(--color-card-bg) hover:bg-h3/10 hover:text-(--color-cta-bg) border-2 border-(--color-cta-bg) rounded-full px-6 md:px-8 py-2.5 md:py-3 transition-colors duration-300 active:scale-95 hover:cursor-pointer">
+                                <a href="#Contact" className="font-sharp bg-(--color-cta-bg) text-(--color-card-bg) hover:bg-h3/10 hover:text-(--color-cta-bg) border-2 border-(--color-cta-bg) rounded-full px-6 md:px-8 py-2.5 md:py-3 transition-colors duration-300 active:scale-95 hover:cursor-pointer">
                                     Shop Now
-                                </button>
+                                </a>
                                 <button className="font-sharp text-(--color-cta-bg) border-2 border-(--color-cta-bg) hover:bg-(--color-cta-bg) hover:text-(--color-card-bg) rounded-full px-6 md:px-8 py-2.5 md:py-3 transition-colors duration-300  active:scale-95 hover:cursor-pointer">
                                     Learn More
                                 </button>

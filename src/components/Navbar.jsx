@@ -19,14 +19,14 @@ const Navbar = () => {
                     <a href="#home" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Home</a>
                     <a href="#ourStory" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Our Story</a>
                     <a href="#Collection" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Collection</a>
-                    <a href="#Testimpnials" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Testimonials</a>
+                    <a href="#Testimonials" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Testimonials</a>
                     <a href="#Contact" className="font-sharp text-h1 tracking-wide hover:cursor-pointer uppercase">Contact</a>
                 </div>
 
                 {/* CTA button - hidden on mobile */}
-                <button className="hidden md:block font-sharp text-h1 tracking-wide bg-(--color-accent) px-6 py-2 rounded-full transition-all active:scale-95 hover:cursor-pointer hover:bg-(--color-cta-bg) hover:text-(--color-cta-text) shadow-sm">
+                <a href="#Contact" className="hidden md:block font-sharp text-h1 tracking-wide bg-(--color-accent) px-6 py-2 rounded-full transition-all active:scale-95 hover:cursor-pointer hover:bg-(--color-cta-bg) hover:text-(--color-cta-text) shadow-sm">
                     Shop Now
-                </button>
+                </a>
 
                 {/* Hamburger icon - visible only on mobile */}
                 <button
@@ -42,14 +42,14 @@ const Navbar = () => {
             {/* Mobile dropdown menu */}
             {isOpen && (
                 <div className="md:hidden flex flex-col items-center gap-6 py-6 bg-(--color-card-bg)">
-                    <span className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Home</span>
-                    <span className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Collection</span>
-                    <span className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Our Story</span>
-                    <span className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Testimonials</span>
-                    <span className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Contact</span>
-                    <button className="font-sharp text-h1 tracking-wide bg-(--color-accent) px-6 py-2 rounded-full transition-all active:scale-95 hover:cursor-pointer hover:bg-(--color-cta-bg) hover:text-(--color-cta-text) shadow-sm">
+                    <a href="#home" className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Home</a>
+                    <a href="#ourStory" className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Our Story</a>
+                    <a href="#Collection" className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Collection</a>
+                    <a href="#Testimonials" className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Testimonials</a>
+                    <a href="#Contact" className="font-sharp text-h1 tracking-wide uppercase hover:cursor-pointer">Contact</a>
+                    <a href="#Contact" className="font-sharp text-h1 tracking-wide bg-(--color-accent) px-6 py-2 rounded-full transition-all active:scale-95 hover:cursor-pointer hover:bg-(--color-cta-bg) hover:text-(--color-cta-text) shadow-sm">
                         Shop Now
-                    </button>
+                    </a>
                 </div>
             )}
         </div>
